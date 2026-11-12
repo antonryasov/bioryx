@@ -4,3 +4,15 @@
 .product-art{height:270px;background:#e6e6e4;display:grid;place-items:center;overflow:hidden}.product-art span{font:900 150px/1 Unbounded,Arial,sans-serif;color:#5a48ea;opacity:.85;transform:rotate(-12deg)}.product:nth-child(3n+2) .product-art{background:#17171a}.product:nth-child(3n) .product-art{background:#dbd7fc}
 .checkout{max-width:650px;display:grid;gap:18px;margin-top:30px}.checkout label{display:grid;gap:8px;font-size:13px;font-weight:700}.checkout input:not([type=checkbox]),.checkout select,.checkout textarea{width:100%;padding:15px;border:1px solid #bbb;background:white;color:#111;font:inherit}.checkout textarea{min-height:90px}.checkout .check{display:flex;align-items:start;font-weight:400;line-height:1.5}.checkout .check input{margin-top:4px}.checkout button:disabled{opacity:.5}
 [hidden]{display:none!important}
+/* Preserve the shared horizontal gutters when sections use vertical shorthand. */
+.wrap.page,.wrap.section{padding-left:max(5%, 20px);padding-right:max(5%, 20px)}
+@media(max-width:800px){
+  .wrap{padding-left:max(5%, 20px);padding-right:max(5%, 20px)}
+  .hero h1{font-size:clamp(32px,9vw,58px);overflow-wrap:anywhere}
+  .page h1{font-size:clamp(32px,8.5vw,58px);overflow-wrap:anywhere}
+  .section h2,.feature h2{font-size:clamp(27px,7vw,46px);overflow-wrap:anywhere}
+  .mobile-menu.open{padding-left:max(5%,20px);padding-right:max(5%,20px)}
+  .topline{padding-left:20px;padding-right:20px;line-height:1.5}
+  .cart-row,.info-card,.notice,.product,.checkout,.foot-grid{min-width:0;overflow-wrap:anywhere}
+  .header{gap:12px}.logo{font-size:22px}.head-right{white-space:nowrap}
+}
