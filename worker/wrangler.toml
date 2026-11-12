@@ -1,0 +1,5 @@
+name = "bioryx-setup"
+main = "src/index.js"
+compatibility_date = "2026-11-12"
+# Добавьте SITE_URL через dashboard или [vars] после публикации сайта.
+# CUSTOMER_BOT_TOKEN и WEBHOOK_SECRET — только через wrangler secret put.

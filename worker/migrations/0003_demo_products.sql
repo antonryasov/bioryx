@@ -1,0 +1,7 @@
+-- Вымышленные товары; удалить или заменить до реальных продаж.
+INSERT OR IGNORE INTO products (id,sku,name,category,description,price,stock,image,active) VALUES ('demo-protein-vanilla', 'DEMO-P01', 'WHEY / ВАНИЛЬ', 'protein', 'Демонстрационный протеин · 900 г', 3290, 12, 'assets/protein.png', 1);
+INSERT OR IGNORE INTO products (id,sku,name,category,description,price,stock,image,active) VALUES ('demo-protein-chocolate', 'DEMO-P02', 'WHEY / ШОКОЛАД', 'protein', 'Демонстрационный протеин · 900 г', 3290, 10, 'assets/protein.png', 1);
+INSERT OR IGNORE INTO products (id,sku,name,category,description,price,stock,image,active) VALUES ('demo-creatine', 'DEMO-C01', 'CREATINE / MONO', 'creatine', 'Демонстрационный креатин · 300 г', 1990, 15, 'assets/creatine.png', 1);
+INSERT OR IGNORE INTO products (id,sku,name,category,description,price,stock,image,active) VALUES ('demo-creatine-micronized', 'DEMO-C02', 'CREATINE / MICRO', 'creatine', 'Демонстрационный креатин · 250 г', 1790, 8, 'assets/creatine.png', 1);
+INSERT OR IGNORE INTO products (id,sku,name,category,description,price,stock,image,active) VALUES ('demo-set-start', 'DEMO-S01', 'СТАРТ / НАБОР', 'sets', 'Демонстрационный набор для старта', 4790, 5, 'assets/set.png', 1);
+INSERT OR IGNORE INTO products (id,sku,name,category,description,price,stock,image,active) VALUES ('demo-set-mass', 'DEMO-S02', 'МАССА / НАБОР', 'sets', 'Демонстрационный набор для набора массы', 6490, 5, 'assets/set.png', 1);

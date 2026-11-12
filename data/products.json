@@ -1,0 +1,68 @@
+[
+  {
+    "id": "demo-protein-vanilla",
+    "sku": "DEMO-P01",
+    "name": "WHEY / ВАНИЛЬ",
+    "category": "protein",
+    "description": "Демонстрационный протеин · 900 г",
+    "price": 3290,
+    "stock": 12,
+    "active": true,
+    "image": "assets/protein.png"
+  },
+  {
+    "id": "demo-protein-chocolate",
+    "sku": "DEMO-P02",
+    "name": "WHEY / ШОКОЛАД",
+    "category": "protein",
+    "description": "Демонстрационный протеин · 900 г",
+    "price": 3290,
+    "stock": 10,
+    "active": true,
+    "image": "assets/protein.png"
+  },
+  {
+    "id": "demo-creatine",
+    "sku": "DEMO-C01",
+    "name": "CREATINE / MONO",
+    "category": "creatine",
+    "description": "Демонстрационный креатин · 300 г",
+    "price": 1990,
+    "stock": 15,
+    "active": true,
+    "image": "assets/creatine.png"
+  },
+  {
+    "id": "demo-creatine-micronized",
+    "sku": "DEMO-C02",
+    "name": "CREATINE / MICRO",
+    "category": "creatine",
+    "description": "Демонстрационный креатин · 250 г",
+    "price": 1790,
+    "stock": 8,
+    "active": true,
+    "image": "assets/creatine.png"
+  },
+  {
+    "id": "demo-set-start",
+    "sku": "DEMO-S01",
+    "name": "СТАРТ / НАБОР",
+    "category": "sets",
+    "description": "Демонстрационный набор для старта",
+    "price": 4790,
+    "stock": 5,
+    "active": true,
+    "image": "assets/set.png"
+  },
+  {
+    "id": "demo-set-mass",
+    "sku": "DEMO-S02",
+    "name": "МАССА / НАБОР",
+    "category": "sets",
+    "description": "Демонстрационный набор для набора массы",
+    "price": 6490,
+    "stock": 5,
+    "active": true,
+    "image": "assets/set.png"
+  }
+]
