@@ -1,7 +1,7 @@
 /* Корзина и оформление: расчёты предварительные, окончательная проверка — Worker/D1. */
 (()=>{
 const root=document.querySelector('#commerce-root');if(!root)return;
-const checkout=root.dataset.page==='checkout', token=sessionStorage.getItem('bioryx_customer_token'), promoKey='bioryx_promo_applied';
+const checkout=root.dataset.page==='checkout', token=getCustomerToken(), promoKey='bioryx_promo_applied';
 const rub=n=>new Intl.NumberFormat('ru-RU').format(n)+' ₽';
 const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let products=[],promo=null,checkedCode='',balance=0,redeemPercent=100,working=false,checking=false,lookupSeq=0;
