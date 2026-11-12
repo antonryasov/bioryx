@@ -16,3 +16,4 @@
   .cart-row,.info-card,.notice,.product,.checkout,.foot-grid{min-width:0;overflow-wrap:anywhere}
   .header{gap:12px}.logo{font-size:22px}.head-right{white-space:nowrap}
 }
+@media(max-width:600px){.head-right a[href="account.html"]{display:none}}
